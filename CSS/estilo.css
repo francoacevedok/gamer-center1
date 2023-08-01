@@ -1,0 +1,223 @@
+ * {
+     margin: 0;
+     padding: 0;
+
+ }
+
+ /* body */
+ body {
+     background-color: #f4f4f4;
+
+ }
+
+ .colorBtn {
+
+     background-color: #d61a1a;
+     color: #f4f4f4;
+     border-radius: 2px;
+     padding: 5px 10px;
+     width: fit-content;
+     font-size: 1.0rem;
+
+ }
+
+ .colorBtn:hover {
+     background-color: #c21919f3;
+     color: #f4f4f4;
+
+ }
+
+ .text-body-emphasis {
+     text-transform: uppercase;
+     text-align: center;
+
+
+ }
+
+ .lead {
+
+     text-align: center;
+ }
+
+
+ .logoizq {
+     width: 8rem;
+ }
+
+ .fuentes {
+     font-size: 1.2rem;
+     font-weight: bold;
+     text-transform: uppercase;
+     padding-left: 2rem;
+ }
+
+
+
+
+
+
+ /* header */
+ header {
+     border-bottom: 1px solid #d61a1a;
+     text-align: center;
+     padding: 10px 15px;
+
+     nav ul {
+         list-style: none;
+
+
+
+     }
+
+
+
+
+
+     li {
+         display: inline-block;
+         margin: 0 10px;
+     }
+
+     li {
+
+         text-decoration: none;
+         text-transform: uppercase;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+     }
+
+
+
+
+
+
+
+
+ }
+
+ h1 {
+     text-align: center;
+     text-decoration: none;
+     margin: 20px 0px;
+
+ }
+
+ footer {
+     border-top: 2px rgb(255, 252, 252);
+     text-align: center;
+     margin: 20px;
+     padding: 20px;
+ }
+
+ /* joystick */
+ figure {
+
+     margin: 120px;
+     display: inline-block;
+ }
+
+ .joystickimg {
+
+     width: 200px;
+     height: auto;
+     border-bottom: 10px;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+ }
+
+ figcaption {
+     background-color: #F2F0EB;
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     text-transform: uppercase;
+     padding: 10px;
+
+ }
+
+ form {
+     margin-top: 25px;
+ }
+
+ label {
+     display: block;
+     font-weight: bold;
+     margin-bottom: 5px;
+     color: rgb(5, 3, 0);
+ }
+
+ .campos {
+
+     display: block;
+     padding-top: 5px;
+     width: 85%;
+     border: 2px solid gainsboro;
+     border-radius: 5px;
+     font-size: 20px;
+     margin-bottom: 10px;
+ }
+
+ .formulario {
+
+     background-color: black;
+     color: #000000;
+     padding: 5px;
+     border: none;
+     font-size: 20px;
+     border-radius: 5px;
+     margin-top: 10px;
+     cursor: pointer;
+ }
+
+ .imgdedudas {
+     margin: 60px;
+     padding: 20px 20px;
+     border: solid 2px black;
+     width: auto;
+     display: block;
+
+ }
+
+ h2 {
+     font-size: 40px;
+     padding: 10px;
+     width: auto;
+     text-align: left;
+     font-weight: bold;
+ }
+
+ h3 {
+     font-size: 25px;
+     padding: 10px;
+     width: auto;
+     text-align: left;
+     font-weight: bold;
+
+ }
+
+ a {
+
+     font-size: 20px;
+     padding-top: 10;
+     font-weight: bold;
+     margin-top: 10px;
+
+
+ }
+
+ .productos {
+
+     text-align: left;
+     display: inline;
+     padding: 10px;
+     width: auto;
+ }
+
+ /* Footer  */
+
+ 
+
+
+ 
