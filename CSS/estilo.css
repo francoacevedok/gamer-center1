@@ -16,7 +16,7 @@
      background-color: #d61a1a;
      color: #f4f4f4;
      padding: 5px 10px;
-     width:auto;
+     width: auto;
      font-size: 1.0rem;
      font-weight: bold;
 
@@ -25,7 +25,7 @@
  .colorBtn:hover {
      background-color: #c21919f3;
      color: #f4f4f4;
-      
+
 
  }
 
@@ -46,71 +46,72 @@
      width: 8rem;
  }
 
- 
+
 
  .fuentes {
-     font-size:1.2rem;
+     font-size: 1.2rem;
      font-weight: bold;
      text-transform: uppercase;
      padding-left: 2rem;
  }
-.fuentes li a:hover{
-background-color: #d61a1a;
-color: #f4f4f4;
-}
+
+ .fuentes li a:hover {
+     background-color: #d61a1a;
+     color: #f4f4f4;
+ }
 
 
- .inicio { 
-    font-weight: bold;
-font-size: 1.2rem;
-text-transform: uppercase;
-color: #000000;
+ .inicio {
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #000000;
 
  }
-.producto {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #000000;
 
-}
- 
-.nosotros {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #000000;
+ .producto {
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #000000;
 
-}
+ }
 
-.preguntas {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #000000;
+ .nosotros {
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #000000;
 
-}
+ }
 
-.contacto {
+ .preguntas {
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #000000;
 
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #000000;
-}
-.footcol li a:hover {
-    color:  #d61a1a
+ }
 
+ .contacto {
 
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #000000;
+ }
 
-}
-.derechos {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #000000;
+ .footcol li a:hover {
+     color: #d61a1a
+ }
 
-}
+ .derechos {
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #000000;
+
+ }
 
 
  /* header */
@@ -164,13 +165,13 @@ color: #000000;
      text-align: center;
      margin: 20px;
      padding: 20px;
-      }
-
-     
+ }
 
 
 
-      
+
+
+
  /* joystick */
  figure {
 
@@ -199,16 +200,19 @@ color: #000000;
 
  }
 
- form {
-     margin-top: 25px;
+ .formulariodecontacto {
+     background-color: rgb(230, 228, 228);
+     color: #d61a1a;
+     padding: 10px 10px;
+     width: 100%;
+     font-size: 20px;
+     font-weight: bold ;
+     border: 7px solid #d61a1a
+     
  }
 
- label {
-     display: block;
-     font-weight: bold;
-     margin-bottom: 5px;
-     color: rgb(5, 3, 0);
- }
+
+
 
  .campos {
 
@@ -219,18 +223,6 @@ color: #000000;
      border-radius: 5px;
      font-size: 20px;
      margin-bottom: 10px;
- }
-
- .formulario {
-
-     background-color: black;
-     color: #000000;
-     padding: 5px;
-     border: none;
-     font-size: 20px;
-     border-radius: 5px;
-     margin-top: 10px;
-     cursor: pointer;
  }
 
  .imgdedudas {
@@ -269,59 +261,79 @@ color: #000000;
 
  }
 
- 
 
 
-.tituproductos {
-    background-color: #2c2b2b;
-   color: #d61a1a;
-   font-weight: bold;
-   text-transform: uppercase;
-   
-   
-   
-}
 
-.produ {
-text-align: center;
-}
+ .tituproductos {
+     background-color: #2c2b2b;
+     color: #d61a1a;
+     font-weight: bold;
+     text-transform: uppercase;
 
-.colorprobtn {
-color: #f4f4f4;
-background-color: #d61a1a;
-border-radius: 1px;
-font-weight: bold;
-font-size: 20px;
-}
- 
-.card {
 
-border: none;
-margin: 10px;
-padding: 10px;
-}
+
+ }
+
+ .produ {
+     text-align: center;
+ }
+
+ .colorprobtn {
+     color: #f4f4f4;
+     background-color: #d61a1a;
+     border-radius: 1px;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .card {
+
+
+     margin: 10px;
+     padding: 10px;
+
+ }
 
  .card-title {
 
-    text-align: center;
-    text-transform: uppercase;
+     text-align: center;
+     text-transform: uppercase;
  }
 
  .card-text {
 
-text-align: center;
-font-weight: bold;
+     text-align: center;
+     font-weight: bold;
 
  }
 
  .quienessomos {
 
-text-align: center;
-background-color: #2c2b2b;
-color: #d61a1a;
-font-weight: bold;
-text-transform: uppercase;
+     text-align: center;
+     background-color: #2c2b2b;
+     color: #d61a1a;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-top: 0px;
  }
 
- 
+ .respuestasadudas {
+     text-align: center;
+     background-color: #2c2b2b;
+     color: #d61a1a;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-top: 0px;
 
+ }
+
+ .codydescuento {
+     text-align: center;
+     background-color: #2c2b2b;
+     color: #d61a1a;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-top: 0px;
+
+
+ }
