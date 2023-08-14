@@ -1,339 +1,322 @@
- * {
-     margin: 0;
-     padding: 0;
-
- }
-
- /* body */
- body {
-     background-color: #f4f4f4;
-
- }
-
-
- .colorBtn {
-
-     background-color: #d61a1a;
-     color: #f4f4f4;
-     padding: 5px 10px;
-     width: auto;
-     font-size: 1.0rem;
-     font-weight: bold;
-
- }
-
- .colorBtn:hover {
-     background-color: #c21919f3;
-     color: #f4f4f4;
-
-
- }
-
- .text-body-emphasis {
-     text-transform: uppercase;
-     text-align: center;
-
-
- }
-
- .lead {
-
-     text-align: center;
- }
-
-
- .logoizq {
-     width: 8rem;
- }
-
-
-
- .fuentes {
-     font-size: 1.2rem;
-     font-weight: bold;
-     text-transform: uppercase;
-     padding-left: 2rem;
- }
-
- .fuentes li a:hover {
-     background-color: #d61a1a;
-     color: #f4f4f4;
- }
-
-
- .inicio {
-     font-weight: bold;
-     font-size: 1.2rem;
-     text-transform: uppercase;
-     color: #000000;
-
- }
-
- .producto {
-     font-weight: bold;
-     font-size: 1.2rem;
-     text-transform: uppercase;
-     color: #000000;
-
- }
-
- .nosotros {
-     font-weight: bold;
-     font-size: 1.2rem;
-     text-transform: uppercase;
-     color: #000000;
-
- }
-
- .preguntas {
-     font-weight: bold;
-     font-size: 1.2rem;
-     text-transform: uppercase;
-     color: #000000;
-
- }
-
- .contacto {
-
-     font-weight: bold;
-     font-size: 1.2rem;
-     text-transform: uppercase;
-     color: #000000;
- }
-
- .footcol li a:hover {
-     color: #d61a1a
- }
-
- .derechos {
-     font-weight: bold;
-     font-size: 1.2rem;
-     text-transform: uppercase;
-     color: #000000;
-
- }
-
-
- /* header */
- header {
-     border-bottom: 1px solid #d61a1a;
-     text-align: center;
-     padding: 10px 15px;
-
-     nav ul {
-         list-style: none;
-
-
-
-     }
-
-
-
-
-
-     li {
-         display: inline-block;
-         margin: 0 10px;
-     }
-
-     li {
-
-         text-decoration: none;
-         text-transform: uppercase;
-         font-weight: bold;
-         color: rgb(0, 0, 0);
-     }
-
-
-
-
-
-
-
-
- }
-
- h1 {
-     text-align: center;
-     text-decoration: none;
-     margin: 20px 0px;
-
- }
-
- footer {
-     border-top: 2px rgb(255, 252, 252);
-     text-align: center;
-     margin: 20px;
-     padding: 20px;
- }
-
-
-
-
-
-
- /* joystick */
- figure {
-
-     margin: 120px;
-     display: inline-block;
- }
-
- .joystickimg {
-
-     width: 200px;
-     height: auto;
-     border-bottom: 10px;
-     padding: 10px;
-     text-align: center;
-     text-decoration: none;
- }
-
- figcaption {
-     background-color: #F2F0EB;
-     color: black;
-     text-align: center;
-     font-weight: bold;
-     font-size: 20px;
-     text-transform: uppercase;
-     padding: 10px;
-
- }
-
- .formulariodecontacto {
-     background-color: rgb(230, 228, 228);
-     color: #d61a1a;
-     padding: 10px 10px;
-     width: 100%;
-     font-size: 20px;
-     font-weight: bold ;
-     border: 7px solid #d61a1a
-     
- }
-
-
-
-
- .campos {
-
-     display: block;
-     padding-top: 5px;
-     width: 85%;
-     border: 2px solid gainsboro;
-     border-radius: 5px;
-     font-size: 20px;
-     margin-bottom: 10px;
- }
-
- .imgdedudas {
-     margin: 60px;
-     padding: 20px 20px;
-     border: solid 2px black;
-     width: auto;
-     display: block;
-
- }
-
- h2 {
-     font-size: 40px;
-     padding: 10px;
-     width: auto;
-     text-align: left;
-     font-weight: bold;
- }
-
- h3 {
-     font-size: 25px;
-     padding: 10px;
-     width: auto;
-     text-align: left;
-     font-weight: bold;
-
- }
-
- a {
-
-     font-size: 20px;
-     padding-top: 10;
-     font-weight: bold;
-     margin-top: 10px;
-
-
- }
-
-
-
-
- .tituproductos {
-     background-color: #2c2b2b;
-     color: #d61a1a;
-     font-weight: bold;
-     text-transform: uppercase;
-
-
-
- }
-
- .produ {
-     text-align: center;
- }
-
- .colorprobtn {
-     color: #f4f4f4;
-     background-color: #d61a1a;
-     border-radius: 1px;
-     font-weight: bold;
-     font-size: 20px;
- }
-
- .card {
-
-
-     margin: 10px;
-     padding: 10px;
-
- }
-
- .card-title {
-
-     text-align: center;
-     text-transform: uppercase;
- }
-
- .card-text {
-
-     text-align: center;
-     font-weight: bold;
-
- }
-
- .quienessomos {
-
-     text-align: center;
-     background-color: #2c2b2b;
-     color: #d61a1a;
-     font-weight: bold;
-     text-transform: uppercase;
-     margin-top: 0px;
- }
-
- .respuestasadudas {
-     text-align: center;
-     background-color: #2c2b2b;
-     color: #d61a1a;
-     font-weight: bold;
-     text-transform: uppercase;
-     margin-top: 0px;
-
- }
-
- .codydescuento {
-     text-align: center;
-     background-color: #2c2b2b;
-     color: #d61a1a;
-     font-weight: bold;
-     text-transform: uppercase;
-     margin-top: 0px;
-
-
- }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+body {
+  background-color: #f4f4f4;
+}
+
+.colorBtn {
+  background-color: #d61a1a;
+  color: #f4f4f4;
+  padding: 5px 10px;
+  width: auto;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.colorBtn:hover {
+  background-color: rgba(194, 25, 25, 0.9529411765);
+  color: #f4f4f4;
+}
+
+.text-body-emphasis {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+}
+
+.logoizq {
+  width: 8rem;
+}
+
+.fuentes {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 2rem;
+}
+
+.fuentes li a:hover {
+  background-color: #d61a1a;
+  color: #f4f4f4;
+}
+
+.inicio {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.producto {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.nosotros {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.preguntas {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.contacto {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footcol li a:hover {
+  color: #d61a1a;
+}
+
+.derechos {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* header */
+header {
+  border-bottom: 1px solid #d61a1a;
+  text-align: center;
+  padding: 10px 15px;
+}
+header nav ul {
+  list-style: none;
+}
+header li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header li {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0px;
+}
+
+footer {
+  border-top: 2px rgb(255, 252, 252);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* joystick */
+figure {
+  margin: 120px;
+  display: inline-block;
+}
+
+.joystickimg {
+  width: 200px;
+  height: auto;
+  border-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+figcaption {
+  background-color: #F2F0EB;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.formulariodecontacto {
+  background-color: rgb(230, 228, 228);
+  color: #d61a1a;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  border: 7px solid #d61a1a;
+}
+
+.campos {
+  display: block;
+  padding-top: 5px;
+  width: 85%;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.imgdedudas {
+  margin: 60px;
+  padding: 20px 20px;
+  border: solid 2px black;
+  width: auto;
+  display: block;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 10px;
+  width: auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  padding: 10px;
+  width: auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+a {
+  font-size: 20px;
+  padding-top: 10;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tituproductos {
+  background-color: #2c2b2b;
+  color: #d61a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.produ {
+  text-align: center;
+}
+
+.colorprobtn {
+  color: #f4f4f4;
+  background-color: #d61a1a;
+  border-radius: 1px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.card-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.card-text {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.card-img-top {
+  max-width: 200%;
+  height: auto;
+}
+
+.quienessomos {
+  text-align: center;
+  background-color: #2c2b2b;
+  color: #d61a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.respuestasadudas {
+  text-align: center;
+  background-color: #2c2b2b;
+  color: #d61a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.codydescuento {
+  text-align: center;
+  background-color: #2c2b2b;
+  color: #d61a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.textquienesomos {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-bottom: 10px;
+  font-weight: bold;
+}
+
+.whatsaapnos {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.textojuegofre {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-bottom: 10px;
+  font-weight: bold;
+}
+
+/* SAS */
+header {
+  background-color: rgba(218, 209, 235, 0.226);
+  padding: 10px;
+  margin: 10px;
+}
+header li {
+  display: inline-block;
+}
+
+main h1 {
+  background-color: #2c2b2b;
+  color: #d61a1a;
+  font-weight: bold;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+/*# sourceMappingURL=estilo.css.map */
