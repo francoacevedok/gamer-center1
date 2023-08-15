@@ -1,0 +1,153 @@
+main {
+    .lead {
+        text-align: center;
+    }
+
+    .h1 {
+        text-align: center;
+        text-decoration: none;
+        margin: 20px 0px;
+    }
+
+    .respuestasadudas {
+        text-align: center;
+        background-color: #2c2b2b;
+        color: #d61a1a;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 0px;
+    }
+
+    .imgdedudas {
+        margin: 60px;
+        padding: 200px 200px;
+        margin-top: auto;
+        width: auto;
+        display: block;
+
+    }
+
+    .h2 {
+        font-size: 40px;
+        padding: 10px;
+        width: auto;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .textojuegofre {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .produ {
+        text-align: center;
+        background-color: #2c2b2b;
+        color: #d61a1a;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .colorprobtn {
+        color: #f4f4f4;
+        background-color: #d61a1a;
+        border-radius: 1px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        display: inline-block;
+    }
+
+    .card-title {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .card-text {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .card-img-top {
+        max-width: 200%;
+        height: auto;
+    }
+
+    .quienessomos {
+        text-align: center;
+        background-color: #2c2b2b;
+        color: #d61a1a;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 0px;
+    }
+
+    .textquienesomos {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .whatsaapnos {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 20px;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+    }
+
+    .codydescuento {
+        text-align: center;
+        background-color: #2c2b2b;
+        color: #d61a1a;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 0px;
+    }
+
+    .formulariodecontacto {
+        background-color: rgb(230, 228, 228);
+        color: #d61a1a;
+        padding: 10px 10px;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        border: 7px solid #d61a1a;
+    }
+
+    .colorBtn {
+        color: #f4f4f4;
+        background-color: #d61a1a;
+        border-radius: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 20px
+    }
+
+    .juego {
+        font-size: 40px;
+        padding: 10px;
+        width: auto;
+        text-align: left;
+        font-weight: bold;
+    }
+}

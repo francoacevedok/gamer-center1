@@ -1,0 +1,35 @@
+header {
+    .logoizq {
+        width: 8rem;
+    
+    }
+
+    .fuentes {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 2rem;
+        color: #f4f4f4;
+    }
+
+    li {
+        color: #f4f4f4;
+    }
+
+    a {
+        &:hover {
+            background-color: #d61a1a;
+            color: #f4f4f4;
+        }
+    }
+}
+
+.navegador {
+    border-bottom: 1px solid #d61a1a;
+    text-align: center;
+    padding: 10px 15px;
+    color: #f4f4f4;
+    border-radius: 1px;
+    font-weight: bold;
+    font-size: 20px;
+}
