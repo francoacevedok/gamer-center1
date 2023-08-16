@@ -1,7 +1,7 @@
 header {
     .logoizq {
         width: 8rem;
-    
+
     }
 
     .fuentes {
@@ -22,6 +22,17 @@ header {
             color: #f4f4f4;
         }
     }
+
+    .colorBtn {
+        color: #f4f4f4;
+        background-color: #d61a1a;
+        border-radius: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 20px
+    }
 }
 
 .navegador {
@@ -31,5 +42,5 @@ header {
     color: #f4f4f4;
     border-radius: 1px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px
 }

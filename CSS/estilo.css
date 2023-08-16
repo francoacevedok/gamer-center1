@@ -2,6 +2,7 @@
 header .logoizq {
   width: 8rem;
 }
+
 header .fuentes {
   font-size: 1.2rem;
   font-weight: bold;
@@ -9,12 +10,25 @@ header .fuentes {
   padding-left: 2rem;
   color: #f4f4f4;
 }
+
 header li {
   color: #f4f4f4;
 }
+
 header a:hover {
   background-color: #d61a1a;
   color: #f4f4f4;
+}
+
+header .colorBtn {
+  color: #f4f4f4;
+  background-color: #d61a1a;
+  border-radius: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
 }
 
 .navegador {
@@ -30,11 +44,13 @@ header a:hover {
 main .lead {
   text-align: center;
 }
+
 main .h1 {
   text-align: center;
   text-decoration: none;
   margin: 20px 0px;
 }
+
 main .respuestasadudas {
   text-align: center;
   background-color: #2c2b2b;
@@ -43,13 +59,14 @@ main .respuestasadudas {
   text-transform: uppercase;
   margin-top: 0px;
 }
+
 main .imgdedudas {
-  margin: 60px;
-  padding: 200px 200px;
-  margin-top: auto;
-  width: auto;
+  align-items: flex-start;
+  max-width: 500px;
   display: block;
+  margin: 0 auto;
 }
+
 main .h2 {
   font-size: 40px;
   padding: 10px;
@@ -57,6 +74,7 @@ main .h2 {
   text-align: left;
   font-weight: bold;
 }
+
 main .textojuegofre {
   padding: 10px;
   margin: 10px;
@@ -64,6 +82,7 @@ main .textojuegofre {
   border-bottom: 10px;
   font-weight: bold;
 }
+
 main .produ {
   text-align: center;
   background-color: #2c2b2b;
@@ -71,6 +90,7 @@ main .produ {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 main .colorprobtn {
   color: #f4f4f4;
   background-color: #d61a1a;
@@ -78,12 +98,14 @@ main .colorprobtn {
   font-weight: bold;
   font-size: 20px;
 }
+
 main .card {
   padding: 10px;
   margin: 10px;
   width: 200px;
   display: inline-block;
 }
+
 main .card-title {
   text-align: center;
   text-transform: uppercase;
@@ -91,16 +113,19 @@ main .card-title {
   font-weight: bold;
   font-size: 15px;
 }
+
 main .card-text {
   text-align: center;
-  font-weight: bold;
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 15px;
 }
+
 main .card-img-top {
   max-width: 200%;
   height: auto;
+  width: 100%;
 }
+
 main .quienessomos {
   text-align: center;
   background-color: #2c2b2b;
@@ -109,6 +134,7 @@ main .quienessomos {
   text-transform: uppercase;
   margin-top: 0px;
 }
+
 main .textquienesomos {
   padding: 10px;
   margin: 10px;
@@ -116,15 +142,15 @@ main .textquienesomos {
   border-bottom: 10px;
   font-weight: bold;
 }
+
 main .whatsaapnos {
   display: block;
-  width: 100%;
-  max-width: 300px;
   margin: 20px;
   text-align: center;
   padding: 20px;
   text-decoration: none;
 }
+
 main .codydescuento {
   text-align: center;
   background-color: #2c2b2b;
@@ -133,16 +159,20 @@ main .codydescuento {
   text-transform: uppercase;
   margin-top: 0px;
 }
+
 main .formulariodecontacto {
   background-color: rgb(230, 228, 228);
+  display: inline-block;
+  justify-content: center;
   color: #d61a1a;
-  padding: 10px 10px;
   width: 100%;
+  padding: 30px 30px;
   font-size: 20px;
   font-weight: bold;
   border: 7px solid #d61a1a;
 }
-main .colorBtn {
+
+.colorBtn {
   color: #f4f4f4;
   background-color: #d61a1a;
   border-radius: 1px;
@@ -152,12 +182,41 @@ main .colorBtn {
   margin: 10px;
   margin-top: 20px;
 }
-main .juego {
+
+.juego {
   font-size: 40px;
   padding: 10px;
   width: auto;
   text-align: left;
   font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .imgdedudas {
+    color: #2c2b2b;
+    display: none;
+  }
+}
+
+footer .footcol li {
+  color: blanchedalmond;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer .footcol li a:hover {
+  background-color: #d61a1a;
+  color: blanchedalmond;
+}
+
+footer .derechos {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
 }
 
 * body {

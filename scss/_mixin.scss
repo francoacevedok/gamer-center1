@@ -1,0 +1,21 @@
+@mixin card {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+@mixin cardtienda {
+    @include card
+}
+
+@mixin anclas {
+    background-color: #d61a1a;
+    color: #f4f4f4;
+
+}
+
+@mixin etiquetasdenlace {
+    @include ancla
+}

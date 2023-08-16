@@ -1,2 +1,28 @@
+footer {
+    .footcol {
+        li {
+            color: blanchedalmond;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.0rem;
+
+            a {
+                &:hover {
+                    background-color: #d61a1a;
+                    color: blanchedalmond;
+                }
+            }
+        }
+    }
+
+    .derechos {
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+    }
 
 
+}
